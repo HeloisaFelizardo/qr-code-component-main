@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: hsl(212, 45%, 89%);
+  font-size: 15px;
+}
+
+.container {
+  width: 100vw;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  background-color: hsl(0, 0%, 100%);
+  width: 320px;
+  height: 473px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  box-shadow: 0px 25px 25px 0px rgba(0, 0, 0, 0.0477);
+  border: 1px solid hsl(212, 45%, 89%);
+}
+.box img {
+  width: 288px;
+  height: 288px;
+  margin: 16px;
+  border-radius: 10px;
+}
+
+h1, p {
+  margin: 0;
+  padding: 0;
+}
+
+h1.outfit {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color: hsl(218, 44%, 22%);
+  font-size: 1.4rem;
+  margin: 5px 16px 15px 16px;
+}
+
+p.outfit {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: hsl(220, 15%, 55%);
+  font-size: 1rem;
+  margin: 0 20px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+a {
+  color: hsl(228, 45%, 44%);
+}
+
+/*# sourceMappingURL=styles.css.map */
